@@ -3,10 +3,14 @@
   min-height: 100vh;
 }
 .NavBar {
-  background: purple;
+  background: url('./assets/purple_triangle_background.jpg');
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.NavLogo {
+  color: lightgray;
+  font-size: 40px;
 }
 .NavButtons {
   padding-bottom: 21px;
@@ -15,8 +19,10 @@
   margin: 15px;
   padding: 20px;
   background: black;
+  border: 1px solid black;
   border-radius: 20px;
   color: grey;
+  font-weight: bold;
 }
 .FootOfPage {
   background: black;
@@ -24,4 +30,19 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.FootLogo {
+  color: rgb(226, 7, 7);
+}
+.FootButtons button {
+  margin: 20px;
+  padding: 22px;
+  background: rgb(226, 7, 7);
+  border: 1px solid black;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
 }

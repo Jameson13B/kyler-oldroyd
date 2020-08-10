@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import './App.css'
 
 function App() {
@@ -12,12 +12,11 @@ function App() {
           <button>About Me</button>
         </div>
       </div>
-      {/* Body */}
-      <div className="FootOfPage">
-
-      </div>
+      {/* Content */}
+      {/* Create padding bottom on content equal to FootOfPage height  */}
+      <div className="FootOfPage"></div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

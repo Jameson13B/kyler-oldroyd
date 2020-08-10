@@ -1,3 +1,7 @@
+.App {
+  position: relative;
+  min-height: 100vh;
+}
 .NavBar {
   background: purple;
   display: flex;
@@ -16,5 +20,8 @@
 }
 .FootOfPage {
   background: black;
-  height: 20px;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

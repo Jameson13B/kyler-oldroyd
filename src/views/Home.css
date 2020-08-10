@@ -1,3 +1,9 @@
 .HomePage {
   font-family: "Rock Salt";
+  display: flex;
+  flex-direction: column;
+  
+}
+.center {
+  align-self: center;
 }

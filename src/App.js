@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route, Link } from 'react-router-dom'
 import { Home } from './views/Home'
+import { Gaming } from './views/Gaming'
 import './App.css'
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
       </div>
       <div className="content">
         <Route exact path='/' component={Home} />
-        {/* <Route path='/gaming' component={Gaming} /> */}
+        <Route path='/gaming' component={Gaming} />
         {/* <Route path='/dogs' component={Dogs} /> */}
         {/* <Route path='/travels' component={Travels} /> */}
         {/* <Route path='/about-me' component={Profile} /> */}

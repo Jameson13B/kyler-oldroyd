@@ -9,8 +9,8 @@ export const Home = () => {
       <h1 className="center">Hello! I am Kyler Oldroyd, and welcome to my Website!</h1>
       <p className="center">Gaming, Birds and bird watching, Nature, and dogs!</p>
       <div className="Pictures">
-        <img alt="gaming" src={GamingPic} />
-        <img alt="blue jay" src={BlueJayPic} />
+        <img className="HomePicture" alt="gaming" src={GamingPic} />
+        <img className="HomePicture" alt="blue jay" src={BlueJayPic} />
       </div>
     </div>
   )

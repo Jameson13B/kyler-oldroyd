@@ -1,7 +1,6 @@
 import React from 'react'
-import "./Gaming.css"
-import BlueCrepperPic from "../assets/blue-creeper-hoodie-head.png"
-
+import './Gaming.css'
+import BlueCrepperPic from '../assets/blue-creeper-hoodie-head.png'
 
 export const Gaming = () => {
   return (

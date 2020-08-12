@@ -26,16 +26,15 @@ function App() {
           </Link>
         </div>
       </div>
-      <div className="content">
-        <Route exact path='/' component={Home} />
-        <Route path='/gaming' component={Gaming} />
+      <div className="Content">
+        <Route exact path="/" component={Home} />
+        <Route path="/gaming" component={Gaming} />
         {/* <Route path='/dogs' component={Dogs} /> */}
         {/* <Route path='/travels' component={Travels} /> */}
         {/* <Route path='/about-me' component={Profile} /> */}
         {/* <Route path='/recipes' component={Recipes} /> */}
         {/* <Route path='/donate' component={Donate} /> */}
       </div>
-      {/* Create padding bottom on content equal to FootOfPage height  */}
       <div className="FootOfPage">
         <h1 className="FootLogo">Kyler Oldroyd</h1>
         <div className="FootButtons">
